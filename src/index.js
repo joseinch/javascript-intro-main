@@ -1,37 +1,4 @@
 
-
-
-// function saludar(xyz){
-//     return `hello ${xyz}`
-// }
-
-const saludar = (name = 'Peter') => `Hello ${name}`
-
-
-const nombre = 'Tony'
-
-// console.log(saludar())
-
-const getUser = () => ({ 
-    uid: 'ABC123',
-    username: 'Tony001'
- })
-
-// console.log(getUser())
-
-const heros = [
-    {
-        id: 1,
-        name: 'Batman',
-        owner: 'DC'
-    },
-    {
-        id: 2,
-        name: 'Spiderman',
-        owner: 'Marvel'
-    },
-]
-const exist = heros.some(hero => hero.id === 2) 
-console.log(exist)
+console.log("hello world")
 
 
