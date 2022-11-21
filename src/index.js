@@ -1,4 +1,1 @@
-
-import { owners } from './data/heroes'
-
-console.log(owners)
+console.log("Hola mundo")
